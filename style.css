@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 509px;
+    width: 920px;
+    border-radius: 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.images{
+    display: grid;
+    place-content: center;
+    width: 460px;
+    height: 509px;
+}
+.graund img{
+    width: 460px;
+
+}
+.registration{
+    width: 460px;
+    height: 509px;
+    display: grid;
+    place-content: center;
+}
+.name{
+    margin-bottom: 80px;
+}
+.name h1{
+    position: absolute;
+    height: 32px;
+    left: 51.63%;
+    right: 41.09%;
+    top: calc(50% - 32px/2 - 173.5px);
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #1E1F36;
+}
+.input-box{
+    display: flex;
+    width: 350px;
+    left: 0px;
+    top: 34px;
+    border-radius: 0px;
+    border-bottom:2px solid #E8E8EA;
+    margin-right: 50px;
+    
+}
+.input-box input{
+    width: 350px;
+    border: none;
+    line-height: 70px;
+}
+
+.input-box i{
+    color: #F47B56;
+    margin-top: 25px;
+
+}
+.input-box input::placeholder{
+    height: 14px;
+    width: 350px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4C5F;
+    
+}
+label{
+    margin-top: 10px;
+}
+label span{
+    height: 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1E1F36;
+}
+label i{
+    color: #F47B56;
+    margin-left: 85px;
+}
+ /*mobile version*/
+
+ @media (max-width:360px) {
+    .container{
+        width: 100%;
+        height: 150vh;
+        background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 835px;
+        width: 327px;
+        border-radius: 23px;
+        background: #FFFFFF;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .images{
+        width: 327px;
+        height: 326px;
+    }
+    .graund img{
+        margin-top: 150px;
+        width: 300px;
+        margin-bottom: 200px;
+    
+    }
+    .registration{
+
+        width: 279px;
+        height: 509px;
+        display: grid;
+        place-content: center;
+        margin-bottom: 100px;
+    }
+    .name{
+        
+        
+    }
+    .name h1{
+        height: 32px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: -40px;
+        color: #1E1F36;
+        margin-top: 250px;
+    }
+    .input-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 279px;
+        
+        border-bottom:2px solid #E8E8EA;
+        margin-left: 30px;
+        
+    }
+    .input-box input{
+        width: 279px;
+        border: none;
+        line-height: 70px;
+    }
+    
+    .input-box i{
+        color: #F47B56;
+        margin-bottom: 20px;
+    
+    }
+    .input-box input::placeholder{
+        height: 14px;
+        width: 279px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        color: #4B4C5F;
+        
+    }
+    label{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    label span{
+        height: 14px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    
+        color: #1E1F36;
+    }
+    label i{
+        color: #F47B56;
+        margin-right: 50px;
+    }
+
+}
